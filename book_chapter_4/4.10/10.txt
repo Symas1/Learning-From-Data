@@ -1,0 +1,3 @@
+(a) Initially it was decreasing because we had enough points to train and was getting more points to validate so we could find more optimistic hypothesis. When number of validating points K became too big (and as we didn't use it after validating) over hypothesis became poor.
+
+(b)Reasong for this is that with increased K we had worse gs with minuses to choose from. So we chose the best of the worse and tried to make it perform better by training it on K points but this didn't help much as g we were training had already been poor.

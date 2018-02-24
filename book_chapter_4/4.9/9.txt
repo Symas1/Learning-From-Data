@@ -1,0 +1,2 @@
+Both curves increase with K, because when he have bigger K we are left with left points to train (N);
+They converge because as K increases we get a better estimate of Eout

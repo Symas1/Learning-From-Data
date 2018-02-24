@@ -1,0 +1,2 @@
+Em is unbiased estimate of Eout(gm-);
+But after we choose the smallest Em* we will get an optimistic bias
