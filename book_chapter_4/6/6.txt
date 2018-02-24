@@ -1,0 +1,4 @@
+As we know that sign(w.T*x)=sign(aw.T*x) we can use either soft or hard-order constraints.
+But using soft-order constraint will lead us to very small weights which can become a trouble for computer.
+So in real-world it is better to use hard-constraint for PLA and soft-constraint for "regression for classification".
+http://book.caltech.edu/bookforum/showthread.php?t=4667

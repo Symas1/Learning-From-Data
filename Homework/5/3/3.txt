@@ -1,0 +1,2 @@
+If we use PLA hypothesis set than VC dimension of feature transform is d+1 = 15
+So the answer is (c)

@@ -1,0 +1,2 @@
+If we initialize all the weights to exactly zero all the signals (s) will be zeros and so will x's as tanh(0)=0.
+Also the weight updates will be proportional so the learning won't be possible

@@ -1,0 +1,1 @@
+Cross-entropy is a distance between two probability vectors

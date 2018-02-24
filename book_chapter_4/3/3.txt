@@ -1,0 +1,4 @@
+(a) If we fix H and increase the complexity of f the deterministic noise will go up. This happens because with more complex f the pattern for fitting becomes harder to capture. There is a lower tendency to overfit.
+(b) If we fix f and decrease H the deterministic noise will go up and variance down. This will happen because weaker H will give worse bias. The tendency to overfit will go down(up? because of simpler model will have wrong pattern)
+Ed,x,eps[(gd(x)-f(x))^2]=Ed,x[(gd(x)-g~(x))^2]variance+Ex[(g~(x)-f(x))^2]bias(det noise) + Eeps[eps(x)^2](stoch noise)
+Also if we increase H the variance will go up(it will be affected by hypotheses being lead astray by noise) but bias will go down.
