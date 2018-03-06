@@ -1,0 +1,7 @@
+Hyperplane is expressed as w = sum yn aplhan xn
+From formula above if some Larangian multiplier is zero then corresponding x does not affect the hyperplane
+It means that corresponding x (point) doesn't support our hyperplane and lies somewhere in space and so
+y (w.Tx + b) > 1
+And for support vectors (points) y (w.Txs +b) == 1
+
+https://stackoverflow.com/a/35683528

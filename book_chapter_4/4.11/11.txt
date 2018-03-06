@@ -1,0 +1,1 @@
+I would expect it to Eout be under the Ecv because of Eout(gm*)<=Eout(gm*-)<=Ecv(gm*-)+O(sqrt(lnM/K)

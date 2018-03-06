@@ -1,3 +1,5 @@
-(a) Initially it was decreasing because we had enough points to train and was getting more points to validate so we could find more optimistic hypothesis. When number of validating points K became too big (and as we didn't use it after validating) over hypothesis became poor.
+(a) When K was small all gm m=1..M were already pretty strong but we couldn't really choose the best of them, so we had strong but not the strongest hypothesis. But after K increased we could make our choice better because of validation that's why the curve was going down at the beginning. When K became too big we had bad hypotheses to choose from - thus curve went up.
 
-(b)Reasong for this is that with increased K we had worse gs with minuses to choose from. So we chose the best of the worse and tried to make it perform better by training it on K points but this didn't help much as g we were training had already been poor.
+(b) When K was small all gm m=1..M were strong but we couldn't find the strongest one. After K increased we could make our choice of hypothesis more deliberately due to validation and train on left K point the strongest hypothesis. So curve went down. But after K became too big we had bad hypotheses to choose from and could validate very well that they were all very bad, so we were left with the best of the worst hypothesis and we couldn't really make it much better by training on left K points. Curve went up.
+
+(ñ) This is true because the inequality Eout(gm*)<=Eout(gm*-)<=Eval(gm*-)+O(sqrt(lnM/K) is not a proved theorem

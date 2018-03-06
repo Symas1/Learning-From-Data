@@ -1,3 +1,4 @@
 Number of training points needed - 10*dvc
 Learning rate for stochastic gradient descent - 0.1
 Data for validation - N/2 (20%)
+V-fold cross validation - 10 validation sets

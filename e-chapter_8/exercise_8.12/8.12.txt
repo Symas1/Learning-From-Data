@@ -1,0 +1,3 @@
+If all the data is from one class then all alhas = 0 and 
+(a) w = 0 as w = sum yn* alphan * xn
+(b) b = y (that one class) as b = ys - sum yn * alpan * xn.T * xs
