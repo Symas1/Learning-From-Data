@@ -1,0 +1,9 @@
+(b)
+Max depth in case of all sub-clusters being of equal size = O(logN)
+
+(c)
+In case when bound condition always holds, at every iteration we should only make sure that inequality
+||x-mu1||+r1 <= ||x-mu2||-r2 holds this takes O(d) time - dimension of x and we have O(logN) such iterations, so total = 
+O(dlogN)
+
+(d) To find k nearest neighbors we would need to stop the algorithm with clusters of size > 1

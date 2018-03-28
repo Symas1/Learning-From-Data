@@ -1,0 +1,7 @@
+(a) E_in = 0 when k = 1 because we are averaging over 1 element (the nearest neighbor to x_n is x_n)
+
+(b) The final hypothesis is not smooth because the nearest neighbors (x_1,...,x_k) to some x change as x changes.
+
+(c) The answer is concerned with approximation-generalization tradeoff. If k is small then we get great approximation but bad generalization. If k is too big we get bad approximation but great generalization. So small_k = complex hypothesis (probably fitting noise), big_k = simple hypothesis (probably underfitting)
+
+(d) When x->+-inf the final hypothesis stays steady using last seen k neighbors for classification (steady vaue).

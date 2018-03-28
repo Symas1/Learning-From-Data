@@ -1,0 +1,4 @@
+We can't select k only by looking at E_in because k will always be 1
+The problem with k=1 it that d_vc = inf as we can shatter every N points
+As d_vc = inf - the generalization is very bad and we can say nothing about E_out
+In order to predict E_out we should remember about approximation-generalization tradeoff and choose k small enough to get small E_in and large enough to make our hypothesis 'simpler' (good generalization)

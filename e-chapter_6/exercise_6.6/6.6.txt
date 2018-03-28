@@ -1,0 +1,4 @@
+1 As k = 1,3, ... , 2 floor((N+1)/2)-1 we have O(N) iterations in total
+2 For every iteration in (1) we make 10 iterations on firstly (N - N/10) points then on (N/10) points for validation O(10N) = O(N) in total
+3 Every iteration in (2) takes O(Nd + Nlogk)
+So totally we get O(N^3d + N^3logN) as k->N

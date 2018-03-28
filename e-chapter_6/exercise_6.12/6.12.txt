@@ -1,0 +1,3 @@
+(a) As ||x|| -> inf we will get alpha_n(x) -> 0 
+For nonparametric g(x) = 1
+For parametrix g(x) = 0

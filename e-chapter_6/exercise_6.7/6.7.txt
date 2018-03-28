@@ -1,0 +1,5 @@
+(a) If x* is a point which is not training set consistent then (g_s(x_train)!=g_D(x_train)) as g_D hypothesis used full training set for k-NN rule and g_s used only a subset of D this means that in order to become consistent with g_D we should add nearest point to x* (not is S already) in order to classify it correctly. We will need to add at most k its neighbors to become consistent with g_D. Also, wrong classification using g_s proves that there exists a point which should be included in order to get a consistent with g_D result.
+
+(b) The point added will help with classification as it is sure to be one of the k nearest points that were used in g_D.
+
+(c) We will need at most N-k iteretions as first k points are chosen randomly and so we are left with N-k points.

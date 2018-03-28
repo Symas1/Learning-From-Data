@@ -2,3 +2,5 @@ Number of training points needed - 10*dvc
 Learning rate for stochastic gradient descent - 0.1
 Data for validation - N/2 (20%)
 V-fold cross validation - 10 validation sets
+Useful practical guideline - 3 nearest neighbors is usually enough
+Effective choice for radius (r) in window kernel is (N^(1/(2d)))^-1 ~ k = sqrt(N)

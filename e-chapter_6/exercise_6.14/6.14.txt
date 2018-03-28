@@ -1,0 +1,9 @@
+We should show that Ein_prev >= Ein_new
+Step 2 tells us that we should construct S_j to be all points closest to mu_j (proof exercise_6.13 (b))
+After completing Step 2 we get new clusters of points, but mu_j may not be the best values that minimize Ein_new
+To minimize Ein_new we should find new centroids (proof exercise_6.13 (a))
+And so if we find new mu_j_new != mu_j --> Ein_new < Ein_prev
+	and if mu_j_new == mu_j --> Ein_new == Ein_prev algorithm converged
+
+After that we try to minimize error again by finding better S_j_new for mu_j_new
+And so Ein_prev >= Ein_new
