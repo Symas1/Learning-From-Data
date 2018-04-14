@@ -1,0 +1,1 @@
+E_aug(w) = E_in(w) + (lambda * w^T * w) / N

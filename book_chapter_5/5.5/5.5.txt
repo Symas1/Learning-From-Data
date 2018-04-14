@@ -1,0 +1,3 @@
+(a) M=1500
+(b) If we use them only for testing - they are clear
+If we use them in training - they can't be used for testing anymore as results would be compromised

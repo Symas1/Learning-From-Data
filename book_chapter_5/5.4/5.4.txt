@@ -1,0 +1,2 @@
+(a) The problem with this bound is that the learning process occured in our head, so we should take that into consideration when predicting E_out
+(b) d_vc for the learning model that we used is infinity, because our head is not restricted in choosing the hypothesis set (it means that we could have chosen second order polynomial or third, or something else)
