@@ -4,3 +4,13 @@ Data for validation - N/2 (20%)
 V-fold cross validation - 10 validation sets
 Useful practical guideline - 3 nearest neighbors is usually enough
 Effective choice for radius (r) in window kernel is (N^(1/(2d)))^-1 ~ k = sqrt(N)
+In PCA choose k to obtain reconstruction error of less than10% (treat the bottom 10% of the fluctuations in the data as noise)
+
+Data cleaning - in practice, a slightly simpler model that a final hypothesis and a threshold of 50% for the number of times an example misclassified are reasonable choices. If computational resources permit: first remove the most confusing data point, then rerun the whole process to remove the next data point.
+
+For model selection the recommendation is to use the permutation estimate together with CV 
+
+Validation set size for early stopping in neural networks should be equal to [1/10; 1/5] of data
+
+Variable learning rate gradient descent - increase param [1.05; 1.1], decrease param [0.5; 0.8]
+

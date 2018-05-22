@@ -1,0 +1,4 @@
+We can find principal directions without knowing the dataset X
+This can be done by finding the eigenvectors and eigenvalues of covariance matrix E
+As it turns out, all the vectors u1,u2,… you get from this process are just the eigenvectors of E in decreasing order of eigenvalue. 
+https://math.stackexchange.com/a/29230

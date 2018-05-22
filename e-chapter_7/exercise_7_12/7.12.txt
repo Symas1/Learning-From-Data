@@ -1,0 +1,1 @@
+From hint: after we have finished with D_train we have already explored some hypothesis set H_m during m iterations. This hypothesis set H_m has some dvc_m. If we continue learning on D_val (validation set) after early stopping we would make our H_m -> H_(m+n) bigger, so dvc would grow too, which is bad for generalization and E_out. 

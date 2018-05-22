@@ -1,0 +1,2 @@
+The input space has some input probability distribution. So if some point is in the training set then it has some non-zero probability to occur. This means that it would be better to test the hint error on points those are likely to occur. 
+It might be better to use more hint examples if we would like to encourage the hint.

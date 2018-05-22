@@ -1,0 +1,1 @@
+If we whiten the data before doing PCA the data will become spherical. But the main idea of the PCA is to track for the directions that have the most variance. So, there is no sense in doing PCA after whitening as all the directions will become the same. We should firstly decide which directions to throw away and then whiten the data.

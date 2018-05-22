@@ -1,0 +1,1 @@
+The ith singular vector and singular value play a similar role to eigenvector-eigenvalue pairs.

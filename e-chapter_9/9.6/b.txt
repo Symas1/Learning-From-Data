@@ -1,0 +1,5 @@
+https://stats.stackexchange.com/questions/53/pca-on-correlation-or-covariance
+
+The eigenvectors of the covariance matrix point in the direction of the largest variance of the data. However, variance is an absolute number, not a relative one. This means that the variance of data, measured in centimeters (or inches) will be much larger than the variance of the same data when measured in meters (or feet). Consider the example where one feature represents the length of an object in meters, while the second feature represents the width of the object in centimeters. The largest variance, and thus the largest eigenvector, will implicitly be defined by the first feature if the data is not normalized.
+
+To avoid this scale-dependent nature of PCA, it is useful to normalize the data by dividing each feature by its standard deviation. This is especially important if different features correspond to different metrics.

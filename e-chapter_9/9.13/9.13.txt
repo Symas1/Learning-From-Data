@@ -1,0 +1,1 @@
+If the hybrid strategy stops at H+ we can use the VC bound for H+. Otherwise we should use VC bound for H.
